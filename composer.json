@@ -11,5 +11,16 @@
         "guzzlehttp/guzzle": "^7.8",
         "symfony/dom-crawler": "^7.1",
         "symfony/css-selector": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "rcvieira\\Curso\\": "src/"
+        },
+        "classmap": [
+            "./Teste.php"
+        ],
+        "files": [
+            "./functions.php"
+        ]
     }
 }
