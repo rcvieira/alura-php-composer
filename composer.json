@@ -1,0 +1,15 @@
+{
+    "name": "rcvieira/alura-php-composer",
+    "description": "Projeto demostracao de como usar o php composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rodrigo Vieira"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^7.1",
+        "symfony/css-selector": "^7.1"
+    }
+}
