@@ -22,5 +22,10 @@
         "files": [
             "./functions.php"
         ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11",
+        "squizlabs/php_codesniffer": "*",
+        "phan/phan": "^5.4"
     }
 }
