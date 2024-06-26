@@ -27,5 +27,21 @@
         "phpunit/phpunit": "^11",
         "squizlabs/php_codesniffer": "*",
         "phan/phan": "^5.4"
+    },
+    "scripts": {
+        "test": "phpunit tests/rcvieira/Curso/Tests/TestBuscador.php",
+        "cs": "phpcs --standard=PSR12 src/",
+        "phan": "phan --allow-polyfill-parser -l src",
+        "check": [
+            "@phan",
+            "@cs",
+            "@test"
+        ],
+        "post-update-cmd": [
+            "@test"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Roda as validações do código (phan, phpcs, phpunit)"
     }
 }

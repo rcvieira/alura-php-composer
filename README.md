@@ -47,3 +47,15 @@ https://github.com/phan/phan
 ```
 vendor/bin/phan --allow-polyfill-parser src/Buscador.php
 ```
+
+## Scripts no composer
+
+Define um script para rodar com **composer nome**
+
+Um **@** no início referencia outro comando definido em **scripts**.
+
+Composer permite rodar qualquer comando do sistema operacional, código PHP.
+
+Permite definir comandos para executar antes ou depois de eventos como **install**, **update**, etc.
+
+https://getcomposer.org/doc/articles/scripts.md
