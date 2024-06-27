@@ -59,3 +59,8 @@ Composer permite rodar qualquer comando do sistema operacional, código PHP.
 Permite definir comandos para executar antes ou depois de eventos como **install**, **update**, etc.
 
 https://getcomposer.org/doc/articles/scripts.md
+
+## Controle de versões
+
+O "^1.9" indica que o composer pode atualizar as versões até não acontecer uma quebra de versão, ou seja, sem buscar a 
+próxima major version.
