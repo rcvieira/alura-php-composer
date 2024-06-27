@@ -64,3 +64,8 @@ https://getcomposer.org/doc/articles/scripts.md
 
 O "^1.9" indica que o composer pode atualizar as versões até não acontecer uma quebra de versão, ou seja, sem buscar a 
 próxima major version.
+
+## Publicar pacote no packagist.org
+
+1. Logar com em packagist.org (pode ser com a conta do github)
+2. Fazer submit do pacote apontando para o seu projeto no github. Com a tag criada ele já identifica que existe uma versão.
