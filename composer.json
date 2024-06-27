@@ -43,5 +43,9 @@
     },
     "scripts-descriptions": {
         "check": "Roda as validações do código (phan, phpcs, phpunit)"
-    }
+    },
+    "bin": [
+        "buscar-cursos.php"
+    ],
+    "license": "GPL-3.0-or-later"
 }
